@@ -32,4 +32,4 @@ built on GKE using GitHub Actions, KEDA, ArgoCD, and Kubernetes-native tooling (
 - [ ] Otel &  observability  
 - [ ] Prometheus observability
 
-Tes22t
+Tes2222t
