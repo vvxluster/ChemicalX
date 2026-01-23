@@ -12,6 +12,16 @@ built on GKE using GitHub Actions, KEDA, ArgoCD, and Kubernetes-native tooling (
 ## Architecture
 (placeholder – diagram coming)
 
+## Tools using
+- GitHub Actions
+- KEDA
+- ArgoCD
+- k9s
+- Prometheus
+- Grafana
+- Otel
+
+
 ## Status
 - [x] GKE cluster created
 - [ ] CI namespace & quotas (in progress)
