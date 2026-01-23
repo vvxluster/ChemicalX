@@ -1,4 +1,4 @@
-t# GKE Cluster – CI-first DevOps Architecture
+# GKE Cluster – CI-first DevOps Architecture
 
 This repository documents a hands-on platform engineering project
 built on GKE using GitHub Actions, KEDA, ArgoCD, and Kubernetes-native tooling (subject to edit).
