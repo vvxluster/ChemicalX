@@ -31,3 +31,5 @@ built on GKE using GitHub Actions, KEDA, ArgoCD, and Kubernetes-native tooling (
 - [ ] Setting up the other repos as submodules
 - [ ] Otel &  observability  
 - [ ] Prometheus observability
+
+Test
