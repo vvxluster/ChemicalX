@@ -10,7 +10,7 @@ jobs:
   build-and-run:
     # --- CHOOSE ONE ---
     # For GitHub's free runners (Public Repos):
-    runs-on: ubuntu-latest 
+    runs-on: ephemeral-runner 
     
     # OR for your M2 Mac (if you set it up as a runner):
     # runs-on: self-hosted 
