@@ -21,4 +21,4 @@ jobs:
       - name: Run tests
         run: |
           echo "Running tests..."
-          # exit 1   # uncomment to test failure
+          echo "Node architecture: $(uname -m)"

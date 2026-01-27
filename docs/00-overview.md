@@ -1,3 +1,6 @@
+Current Project Structure:
+
+
 ChemicalX
 ├── README.md
 ├── apps
@@ -9,5 +12,3 @@ ChemicalX
 ├── observebility
 ├── scripts
 └── security
-
-9 directories, 2 files
