@@ -1,4 +1,4 @@
-]name: Sample Code Execution
+name: Sample Code Execution
 
 on:
   push:
