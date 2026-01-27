@@ -1,32 +1,21 @@
-name: Sample Code Execution
+]name: Sample Code Execution
 
-# This defines when the action runs
 on:
   push:
-    branches: [ "main" ] # Runs every time you push to main
-  workflow_dispatch:      # Allows you to run this manually from the Actions tab
+    branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   build-and-run:
-    # --- CHOOSE ONE ---
-    # For GitHub's free runners (Public Repos):
-    runs-on: [self-hosted, gh-keda-runner] 
+    runs-on: [self-hosted, gh-keda-runner]  # ← Must be array format!
     
-    # OR for your M2 Mac (if you set it up as a runner):
-    # runs-on: self-hosted 
-
     steps:
-      # 1. Pulls your code from the repo onto the runner
       - name: Checkout Code
         uses: actions/checkout@v4
-
-      # 2. A simple shell command to prove it works
+      
       - name: Run a greeting
         run: |
           echo "Hello from GitHub Actions!"
           echo "The runner architecture is: $(uname -m)"
-
-      # 3. Running a sample script (Python example)
-      - name: Run Sample Script
-        run: |
-          python3 -c "print('The math is working: 2 + 2 = ' + str(2+2))"
+          echo "Runner name: $RUNNER_NAME"
+          echo "✅ Job completed successfully!"
