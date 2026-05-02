@@ -20,5 +20,5 @@ jobs:
 
       - name: Run tests
         run: |
-          echo "Running tests..."
+          echo "Running tests........"
           # exit 1   # uncomment to test failure
