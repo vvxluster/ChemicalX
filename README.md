@@ -25,8 +25,8 @@ built on GKE using GitHub Actions, KEDA, ArgoCD, and Kubernetes-native tooling (
 
 ## Status
 - [x] GKE cluster created
-- [ ] CI namespace & quotas (in progress)
-- [ ] KEDA + GitHub runners (in progress)
+- [x] CI namespace & quotas 
+- [x] KEDA + GitHub runners 
 - [ ] Create the pipelines to use the KEDA github runners and put the policy for the branches
 - [ ] Setting up the other repos as submodules
 - [ ] Otel &  observability  
